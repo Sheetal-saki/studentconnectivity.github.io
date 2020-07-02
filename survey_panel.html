@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Survey Panel</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style type="text/css">
+   
+ @import url("https://fonts.googleapis.com/css?family=Sofia");
+
+input[type=submit] 
+    {
+          text-align: center;
+          font-size: 15px;
+          width: 100px;
+          color: black;
+          border-radius: 10px;
+          padding: 10px 10px;
+          margin-left:30px;
+          margin-top: 15px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          border: 1px solid lightgrey;
+          background-color: #4d194d;
+          font-family: "Sofia";
+      }
+
+      input[type=submit]:hover
+   {
+          background-color: #ff80bf ;
+  }
+
+body
+{
+  font-family: "Sofia";
+  color: #4d194d;
+}
+
+</style>
+</head>
+<body>
+	
+<h1> Let's Add Exciting Survey For the Users!!!!! </h1>
+<form  method ="post"action="survey_add.php" target="_self">
+
+  <label > Cse/It Department Survey : </label>
+  <textarea rows="4" cols="50" name="cse"></textarea> <br>
+  
+    <label > Ece Department Survey : </label>
+    <textarea rows="4" cols="50" name="ece"></textarea> <br>
+
+    <label>Eee Department Survey </label>
+   <textarea rows="4" cols="50" name="eee"></textarea> <br>
+
+     <label > Mech Department Survey : </label>
+      <textarea rows="4" cols="50" name="mech"></textarea> <br>
+
+
+     <label > Eie Department Survey : </label>
+    <textarea rows="4" cols="50" name="eic"></textarea> <br>
+<br>
+ <input type="submit" name="submit" value="Add links">
+</form>
+</body>
+</html>

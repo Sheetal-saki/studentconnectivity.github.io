@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Chat</title>
+<style type="text/css">
+	@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+		body{
+			font-family: "Sofia";
+			color: #4d194d;
+			font-size : 20px;
+			position: absolute;
+			top: 33;
+			font-family: "Sofia";
+
+		}
+		input[type=submit] 
+		{
+  				text-align: center;
+  				font-size: 20px;
+  				width: 170px;
+  				color: black;
+  				border-radius: 10px;
+  				padding: 14px 20px;
+  				margin-left:30px;
+  				margin-top: 15px;
+  				border: none;
+  				border-radius: 4px;
+  				cursor: pointer;
+  				border: 1px solid lightgrey;
+  				background-color: #4d194d;
+  		}
+
+  		input[type=submit]:hover
+   {
+  				background-color: #ff80bf ;
+	}
+
+	</style>
+</head>
+<body>
+<h1> Select one of your contacts to chat</h1>
+<form method="post" action="online_chatbox.html">
+<table  width=600 height=10>
+<tr><td></td><td>First Name</td><td>Last Name</td><td>User id</td></tr>
+<tr><td><input type="checkbox"></td><td>(First Name)</td><td>(Last Name)</td><td>(User id)</td></tr>
+<tr><td><input type="checkbox"></td><td>(First Name)</td><td>(Last Name)</td><td>(User id)</td></tr>
+<tr><td><input type="checkbox"></td><td>(First Name)</td><td>(Last Name)</td><td>(User id)</td></tr>
+</table>
+<br>
+<input type="submit" value="Chat">
+</form>
+</body>
+</html>

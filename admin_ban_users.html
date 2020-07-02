@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Ban Users</title>
+	
+	<style type="text/css">
+
+		@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+		body
+		{
+		
+			text-align: center;
+			background-image: url("C:/wamp/www/project/del1.jpg");
+			background-repeat: no-repeat;
+			background-position: 25% 55%;
+			background-attachment: fixed;
+			}
+		
+		.container
+		{
+			
+			position:absolute;
+    		text-align:center;
+    		top:25%;
+   			right:15%;
+    		left:15%;
+    		bottom: 50%;
+    		font-family: "Sofia";
+    
+		}
+
+		input[type=submit] 
+		{
+  				text-align: center;
+  				font-size: 20px;
+  				width: 170px;
+  				color: black;
+  				border-radius: 10px;
+  				padding: 14px 20px;
+  				margin-left:30px;
+  				margin-top: 15px;
+  				border: none;
+  				border-radius: 4px;
+  				cursor: pointer;
+  				border: 1px solid lightgrey;
+  				background-color: #4d194d;
+  		}
+
+  		input[type=submit]:hover
+   {
+  				background-color: #ff80bf ;
+	}
+
+		input
+		{
+  				width:170px;
+  				height: 50px;
+  				margin-left:30px;
+  				margin-top: 15px;
+  				text-align: center;
+  				border-radius: 10px;
+  				border: 1px solid lightgrey;
+  				color: #7D7769;
+  				font-weight: bold;
+  				font-family: "Sofia";
+		}
+
+ 	div.absolute
+ 	{
+  		position: absolute;
+  		top: 80px;
+  		right: 0;
+  		border: 1px ;
+  		border-radius: 20%;
+	}
+
+	</style>
+</head>
+<body >
+	<div class="container">
+		<h1> Enter The User Id To Delete..</h1>
+
+		<form method="post" action="admin_ban_user.php">
+		<input type="text" name="user">
+<br><br>
+		<input type="submit" value="delete" >
+
+		<div class="absolute">
+			<img src="C:/wamp/www/project/ban1.jpg" width="250cm" height= "200cm">
+		</div>
+
+</form>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

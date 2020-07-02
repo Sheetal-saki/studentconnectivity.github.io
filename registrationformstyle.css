@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+
+
+body{
+  text-align: center;
+  margin:0 auto;
+  width:90%;
+  padding:0;
+  font-family: "Sofia";
+
+    }
+
+h1{
+
+  color:  #4d194d ;
+  font-family: "Sofia";
+}
+
+form{
+
+margin: 0 auto; 
+width:250px;  
+font-family: "Sofia";
+
+}
+
+a {
+  position:relative;
+  padding-top: 50px;
+  text-align:center;
+  color:#FF6D2E;
+}
+
+
+.wrap{
+  margin-top:30px;
+  width:480px;
+  text-align: center;
+  font-family: "Sofia";
+}
+
+fieldset {
+  font-family: "Sofia";
+  text-align: center;
+  width: 400px;
+  border-radius:10px;
+  border-right:1px solid transparent;
+  border-left:1px solid transparent;
+}
+   img{
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      position: absolute;
+      border: 1px ;
+      border-radius: 20%;
+      top: 70%;
+      right: 5%;
+    }
+
+
+
+label{
+
+  width:170px;
+  height: 50px;
+  margin-left:50px;
+  margin-top: 55px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  color: #7D7769;
+  font-weight: bold;
+  font-family: "Sofia";
+
+
+}
+
+legend{
+  text-align: center;
+  background:#3A3D52;
+  width:100px;
+  height:100px;
+  margin-left:168px;
+  border-radius:50px;
+  font-family: "Sofia";
+}
+
+
+input{
+  width:170px;
+  height: 50px;
+  margin-left:30px;
+  margin-top: 15px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  color: #7D7769;
+  font-weight: bold;
+  font-family: "Sofia";
+}
+input:focus{
+  border:1px solid rgba(255,109,46,0.6);
+  box-shadow: 0 0 3px rgba(255,109,46,0.6);
+  outline: none;
+  font-size: 1.1em;
+  font-family: "Sofia";
+}
+
+
+input[type=submit]{
+  background: #FF9D73;
+  color: #3A3D52;
+  margin:20px 140px 30px;
+  font-family: "Sofia";
+}
+input[type=submit]:hover{
+  background:#FF8652;
+}

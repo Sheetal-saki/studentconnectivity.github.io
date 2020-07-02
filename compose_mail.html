@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Compose Mail </title>
+	<style type="text/css">
+
+		@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+body
+{
+	font-family: "Sofia";
+	
+
+			text-align: left;
+			background-image: url("C:/wamp/www/project/msg3.jpg");
+			background-repeat: no-repeat;
+			background-position: right bottom;		
+			
+}
+
+input[type=submit] 
+    {
+          text-align: center;
+          font-size: 15px;
+          width: 100px;
+          color: black;
+          border-radius: 10px;
+          padding: 10px 10px;
+          margin-left:30px;
+          margin-top: 15px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          border: 1px solid lightgrey;
+          background-color: #4d194d;
+          font-family: "Sofia";
+      }
+
+      input[type=submit]:hover
+   {
+          background-color: #ff80bf ;
+  }
+
+	</style>
+
+</head>
+<body><br>
+	<div class="heading">
+<h3>
+Just enter the TO ADDRESS, SUBJECT, COMPOSE your mail in the "Compose" box and hit the send button. </h3>
+<form  method="post" action="compose_mail.php">
+(Usename)To :<input type="text" name="to_address" size=50><br><br>
+
+Subject :<input type="text" name="subject" size=50>
+<h3>
+Compose your message here:</h3>
+
+<textarea rows="16" cols="90" name="msg_body"></textarea> <br>
+
+<input type="submit" value="SEND"  >
+</div>
+</form>
+</body>
+</html>
+
+
+

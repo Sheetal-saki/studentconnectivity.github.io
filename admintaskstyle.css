@@ -1,0 +1,22 @@
+
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+*{
+  box-sizing: border-box;
+}
+
+
+.sidenav a {
+  color: white;
+  padding: 10px;
+  margin: 11px;
+  text-decoration: none;
+  display: block;
+  font-family: "Sofia";
+  font-weight: bold;
+}
+
+.sidenav a:hover {
+  background-color:#ff80bf ;
+  color: black;
+}
